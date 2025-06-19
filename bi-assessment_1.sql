@@ -96,9 +96,22 @@ ORDER BY
 
 -- 5. **Business Insight Case:**
 --    You observe a 20% drop in redemption rates for a loyalty program this month.
-
+--
 --    * What steps would you take to investigate this?
 --    * What kinds of data would you look at?
+
+-- Answer:
+-- 1. Quantify the drop: Confirm the 20% decrease by comparing current and previous months’ redemption rates.
+-- 2. Segment analysis: Break down redemption rates by member (e.g., between sign up early or late, tier) to identify where the drop is most pronounced.
+-- 3. Funnel analysis: Examine each step in the redemption process to locate where drop-offs increased.
+-- 4. Campaign and offer review: Check if there were changes in loyalty offers, campaign communication, or eligibility criteria.
+-- 5. External factors: Investigate seasonality, competitor promotions, or macroeconomic events that could impact customer behavior.
+
+-- Data to review:
+-- - Historical redemption rates (daily/weekly/monthly)
+-- - Member Dimension data, like tier, sign up
+-- - Loyalty program offer details and changes
+-- - Marketing campaign logs and communications
 
 -- ---
 
